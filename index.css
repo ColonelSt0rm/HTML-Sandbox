@@ -1,0 +1,35 @@
+#container {
+  background: black;
+  margin: 3px;
+}
+
+.column {
+  width: 32%;
+  height: 500px;
+  float: left;
+  margin: 3px;
+  font-size: 14pt;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+#FirstColumn {
+  background-color: #FD00E1;
+  color: #000;
+}
+
+#SecondColumn {
+  background-color: #000000;
+  color: #00FFD5;
+}
+
+#ThirdColumn {
+  background-color: #00FFD5;
+  color: #FD00E1;
+}
+
+.columnText {
+  margin: 14px;
+  font-family: "Comic Sans MS";
+}

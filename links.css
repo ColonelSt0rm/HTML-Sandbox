@@ -1,0 +1,30 @@
+#linksContentHeader {
+  width: 100%;
+  float: left;
+  height: auto;
+  text-align: center;
+  color: orange;
+  background-color: black;
+  font-family: "Comic Sans MS";
+}
+
+#linksListContainer {
+  float: inherit;
+  align: center;
+  width: 50%;
+}
+
+.linksList {
+  width: 50%;
+  align: center;
+  float: left;
+}
+
+.listedLink, .listItem {
+  font-size: 75px;
+  color: lime;
+}
+
+.listedLink {
+  background-color: black;
+}

@@ -1,0 +1,110 @@
+
+
+h1 {
+  color: #66CCCC;
+  background-color: black;
+}
+
+#master {
+  width: 65%;
+  margin: auto;
+}
+
+#buttons {
+  background-color: white;
+  margin: auto;
+  font-size: 48px;
+  font-family: "Impact";
+}
+
+.topButton {
+  width: 33%;
+
+  float: left;
+  text-align: center;
+  color: blue;
+}
+
+#homeButton {
+  background-color: #00FFD5;
+}
+
+.rainbowText {
+    /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite;
+
+    /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+
+    /* Standar Syntax */
+  animation: rainbow 3s infinite;
+
+
+}
+
+.headerText {
+  width: 48%;
+  height: auto;
+  float: left;
+  font-size: 50px;
+  font-family: "Impact";
+  text-align: center;
+}
+
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+
+#headerContainer {
+  float: left;
+  padding: 5px;
+  width: 98%;
+}
+
+.generalParrot {
+  width: 48%;
+  height: auto;
+  float: left;
+}
+
+#rainbowParrotHeader {
+  background-color: black;
+}
+
+body {
+  background-image: url(./centurion.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /*
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 50px 50px;
+  */
+}
